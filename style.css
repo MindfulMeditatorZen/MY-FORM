@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: lightblue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form {
+  background: #ffffff;
+  width: 100%;
+  max-width: 360px;
+  padding: 32px 28px;
+  border-radius: 16px;
+}
+
+.form h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 24px;
+}
+
+.form label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+
+.terms {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.terms label {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.form button {
+  width: 100%;
+  padding: 12px;
+  background: #764ba2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #5a3a80;
+}
+
+.login {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 16px;
+}
+
+.login a {
+  color: #764ba2;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
